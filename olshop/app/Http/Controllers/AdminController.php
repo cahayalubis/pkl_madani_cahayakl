@@ -25,5 +25,8 @@ class AdminController extends Controller
     public function addbanner(){
         return view('admins.addbanner');
     }
+    public function adproduk(){
+        return view('admins.adproduk');
+    }
 
 }

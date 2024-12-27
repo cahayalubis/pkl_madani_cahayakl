@@ -13,3 +13,5 @@ Route::get('/hello', [AdminController::class, 'hello'])->name('dashboard');
 Route::get('/banner', [AdminController::class, 'banner'])->name('banner');
 Route::get('/product', [AdminController::class, 'product'])->name('product');
 Route::get('/addbanner', [AdminController::class, 'addbanner'])->name('addbanner');
+Route::get('/adproduk', [AdminController::class, 'adproduk'])->name('adproduk');
+
